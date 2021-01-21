@@ -10,4 +10,4 @@ To use:
    ```
    python3.6 merriamScraper.py REQUEST
    ```
-```REQUEST``` may be a word or a text file containing words to scrape Merriam Webster's for.
+```REQUEST``` may be a word or a text file. If a text file, merriamScraper.py will scrape Merriam Webster's for each line of the text file.
