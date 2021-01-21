@@ -56,7 +56,7 @@ if sys.argv[1][-4:] == '.txt':
 		print("File not found")
 		exit()
 else:
-	requestL = [sys.argv[1]]
+	requestL = [sys.argv[1].lower()]
 
 #
 for request in requestL:
@@ -111,7 +111,6 @@ for request in requestL:
 			else:
 				partOfSpeech = key
 			print(request + '\t' + value[0] + '\t' + value[1] + '\t' + partOfSpeech)
-
 
 
 
