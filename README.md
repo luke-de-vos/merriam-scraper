@@ -6,8 +6,8 @@ If a word's first listed pronunciation depends on its part of speech, a line for
 
 Returned info is printed to standard output.
 
-To use:
+## Usage: 
    ```
    python3.6 merriamScraper.py REQUEST
    ```
-```REQUEST``` may be a word or a text file. If a text file, merriamScraper.py will scrape Merriam Webster's for each line of the text file.
+```REQUEST``` may be a word or a text file. If a text file, **merriamScraper.py** will scrape Merriam Webster's for each line of the text file.
