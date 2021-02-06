@@ -2,7 +2,7 @@
 
 The Merriam Webster's Online Dictionary API does not provide a way to retrieve a word's syllable division. That is, which letters are part of which syllable in a multisyllabic word.
 
-merriamScraper.py scrapes Merriam Webster's Online Dictionary (collegiate) for requested words' syllable division and first listed phonetic spelling. 
+**merriamScraper.py** scrapes Merriam Webster's Online Dictionary (collegiate) for requested words' syllable division and first listed phonetic spelling. 
 
 If a word's first listed phonetic spelling depends on its part of speech, a line for each phonetic spelling and associated part of speech will be returned.
 
